@@ -2,7 +2,7 @@
 
 import { describe, expect, it } from 'vitest'
 
-describe('🧪 {{project}} tests 🧪', () => {
+describe('🧪 Zitto tests 🧪', () => {
   it('#1 should ', () => {
     expect()
   }) // #1
