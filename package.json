@@ -1,0 +1,48 @@
+{
+    "name": "@igorskyflyer/{{pkg}}",
+    "version": "{{version}}",
+    "description": "{{desc}}",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=22.0"
+    },
+    "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest --run",
+        "pub": "pnpm test && git push origin main --tags"
+    },
+    "keywords": [
+        "{{tags}}",
+        "igor dimitrijević",
+        "igorskyflyer"
+    ],
+    "license": "MIT",
+    "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
+    "funding": "https://ko-fi.com/igorskyflyer",
+    "homepage": "https://github.com/igorskyflyer/{{repo}}",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igorskyflyer/{{repo}}.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igorskyflyer/{{repo}}/issues"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.4",
+        "@igorskyflyer/biome-config": "^2.1.0",
+        "@types/node": "^22.18.6",
+        "typescript": "^5.9.2",
+        "vitest": "^3.2.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "packageManager": "pnpm@10.17.1"
+}
