@@ -1,12 +1,14 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/igorskyflyer/{{repo}}/main/media/{{pkg}}.png" alt="Icon of {{project}}" width="256" height="256">
-  <h1>{{project}}</h1>
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-zitto/main/media/zitto.png" alt="Icon of Zitto" width="256" height="256">
+  <h1>Zitto</h1>
 </div>
 
-<blockquote align="center"> •  •  • </blockquote>
+<blockquote align="center">
+  • Zero‑Dependency Utility • Cross‑Runtime Support • Sweet Defaults • Silent Config Setup •
+</blockquote>
 
 <h4 align="center">
-  {{desc}}
+  🤫 Zitto - quiet config, loud clarity. A zero-dependency TypeScript/JavaScript helper for merging defaults and options across Node, Deno, Bun, and browsers. 🍯
 </h4>
 
 <br>
@@ -27,9 +29,10 @@
 
 ## 🤖 Features
 
-- 
-- 
-- 
+- 🍯 Sweet defaults merged with options for instant clarity  
+- ⚡ Zero-dependency utility ready for any runtime  
+- 🔁 Reusable setup that avoids repetitive boilerplate  
+- 🌍 Works seamlessly across Node, Deno, Bun, and browsers
 
 <br>
 
@@ -38,15 +41,15 @@
 Install it by executing any of the following, depending on your preferred package manager:
 
 ```bash
-pnpm add @igorskyflyer/{{pkg}}
+pnpm add @igorskyflyer/zitto
 ```
 
 ```bash
-yarn add @igorskyflyer/{{pkg}}
+yarn add @igorskyflyer/zitto
 ```
 
 ```bash
-npm i @igorskyflyer/{{pkg}}
+npm i @igorskyflyer/zitto
 ```
 
 <br>
@@ -62,13 +65,13 @@ npm i @igorskyflyer/{{pkg}}
 
 ## 📝 Changelog
 
-📑 Read about the latest changes in the [**CHANGELOG**](https://github.com/igorskyflyer/{{repo}}/blob/main/CHANGELOG.md).
+📑 Read about the latest changes in the [**CHANGELOG**](https://github.com/igorskyflyer/npm-zitto/blob/main/CHANGELOG.md).
 
 <br>
 
 ## 🪪 License
 
-Licensed under the [**MIT license**](https://github.com/igorskyflyer/{{repo}}/blob/main/LICENSE).
+Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-zitto/blob/main/LICENSE).
 
 <br>
 
@@ -90,25 +93,33 @@ Licensed under the [**MIT license**](https://github.com/igorskyflyer/{{repo}}/bl
 
 ## 🧬 Related
 
-[**ID**]()
+[**@igorskyflyer/strip-html**](https://www.npmjs.com/package/@igorskyflyer/strip-html)
 
-> _ID_
+> _🥞 Removes HTML code from the given string. Can even extract text-only from the given an HTML string. ✨_
 
-[**ID**]()
+<br>
 
-> _ID_
+[**@igorskyflyer/is-rootdir**](https://www.npmjs.com/package/@igorskyflyer/is-rootdir)
 
-[**ID**]()
+> _🔼 Checks whether the given path is the root of a drive or filesystem. ⛔_
 
-> _ID_
+<br>
 
-[**ID**]()
+[**@igorskyflyer/unc-path**](https://www.npmjs.com/package/@igorskyflyer/unc-path)
 
-> _ID_
+> _🥽 Provides ways of parsing UNC paths and checking whether they are valid. 🎱_
 
-[**ID**]()
+<br>
 
-> _ID_
+[**@igorskyflyer/regkeys**](https://www.npmjs.com/package/@igorskyflyer/regkeys)
+
+> _📚 A package for fetching Windows registry keys. 🗝_
+
+<br>
+
+[**@igorskyflyer/rawelement**](https://www.npmjs.com/package/@igorskyflyer/rawelement)
+
+> _🐯 A utility that lets you manipulate HTML elements, their attributes and innerHTML as strings, on the go and then render the modified HTML. Very useful in SSG projects. 💤_
 
 <br>
 
