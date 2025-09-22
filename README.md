@@ -4,7 +4,7 @@
 </div>
 
 <blockquote align="center">
-  • Zero‑Dependency Utility • Cross‑Runtime Support • Sweet Defaults • Silent Config Setup •
+  • Zero-Dependency Utility • Runtime-Safe Options • Predictable Defaults • Strict Config Control •
 </blockquote>
 
 <h4 align="center">
@@ -29,10 +29,13 @@
 
 ## 🤖 Features
 
-- 🍯 Sweet defaults merged with options for instant clarity  
-- ⚡ Zero-dependency utility ready for any runtime  
-- 🔁 Reusable setup that avoids repetitive boilerplate  
-- 🌍 Works seamlessly across Node, Deno, Bun, and browsers
+- ⚡ Always returns defaults when no opts passed  
+- 🛠 Merges known keys with defaults  
+- 🚫 Throws on unknown keys at runtime  
+- 🧩 Enforces object shape with TS and runtime  
+- 🔒 Strict variant drops extras automatically  
+- 🪶 Tiny zero-dep footprint  
+- 📦 Predictable results across runtimes
 
 <br>
 
