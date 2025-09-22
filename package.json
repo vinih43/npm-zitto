@@ -1,7 +1,7 @@
 {
-    "name": "@igorskyflyer/{{pkg}}",
-    "version": "{{version}}",
-    "description": "{{desc}}",
+    "name": "@igorskyflyer/zitto",
+    "version": "1.0.0",
+    "description": "🤫 Zitto - quiet config, loud clarity. A zero-dependency TypeScript/JavaScript helper for merging defaults and options across Node, Deno, Bun, and browsers. 🍯",
     "sideEffects": false,
     "engines": {
         "node": ">=22.0"
@@ -19,20 +19,39 @@
         "pub": "pnpm test && git push origin main --tags"
     },
     "keywords": [
-        "{{tags}}",
-        "igor dimitrijević",
-        "igorskyflyer"
+  "arguments",
+  "browser",
+  "bun",
+  "config",
+  "configuration",
+  "cross-runtime",
+  "defaults",
+  "deno",
+  "esm",
+  "helper",
+  "igor dimitrijević",
+  "igorskyflyer",
+  "javascript",
+  "library",
+  "node",
+  "options",
+  "parameters",
+  "setup",
+  "typescript",
+  "utility",
+  "zero-dependency",
+  "zitto"
     ],
     "license": "MIT",
     "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
     "funding": "https://ko-fi.com/igorskyflyer",
-    "homepage": "https://github.com/igorskyflyer/{{repo}}",
+    "homepage": "https://github.com/igorskyflyer/npm-zitto",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/igorskyflyer/{{repo}}.git"
+        "url": "git+https://github.com/igorskyflyer/npm-zitto.git"
     },
     "bugs": {
-        "url": "https://github.com/igorskyflyer/{{repo}}/issues"
+        "url": "https://github.com/igorskyflyer/npm-zitto/issues"
     },
     "devDependencies": {
         "@biomejs/biome": "^2.2.4",
