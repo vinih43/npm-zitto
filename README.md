@@ -78,6 +78,8 @@ Merge defaults with optional user options.
 
 Returns A new object with defaults and overrides merged.  
 
+<br>
+
 ### defineStrictOptions
 
 ```ts
