@@ -114,8 +114,9 @@ Returns a new object with defaults and known overrides merged.
 ## 🗒️ Examples
 
 ```ts
-const opts = defineOptions({ retries: 3, verbose: false }, { verbose: true }) // => { retries: 3, verbose: true }
+import { defineOptions, defineStrictOptions } from '@igorskyflyer/zitto'
 
+const opts = defineOptions({ retries: 3, verbose: false }, { verbose: true }) // => { retries: 3, verbose: true }
 const opts = defineStrictOptions({ retries: 3, verbose: false }, { retries: 5, extra: 'x' }) // => { retries: 5, verbose: false }  // 'extra' is dropped
 ```
 
