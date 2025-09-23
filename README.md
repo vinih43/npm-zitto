@@ -4,7 +4,7 @@
 </div>
 
 <blockquote align="center">
-  • Zero-Dependency Utility • Runtime-Safe Options • Predictable Defaults • Strict Config Control •
+  Zero-Dependency Utility • Runtime-Safe Options • Predictable Defaults • Strict Config Control
 </blockquote>
 
 <h4 align="center">
@@ -59,10 +59,59 @@ npm i @igorskyflyer/zitto
 
 ## 🤹🏼 API
 
+### defineOptions
+
+```ts
+function defineOptions<T extends object>(
+  defaults: T,
+  options?: Partial<T>
+): T
+```  
+
+Merge defaults with optional user options.  
+
+`T` - Shape of the `defaults` object  
+
+`defaults` - Base configuration with required keys  
+
+`options` - Optional overrides, must be a subset of defaults  
+
+Returns A new object with defaults and overrides merged.  
+
+### defineStrictOptions
+
+```ts
+function defineStrictOptions<T extends object, U extends Partial<T>>(
+  defaults: T,
+  options?: U
+): T
+```  
+
+Merge defaults with optional user options, dropping unknown keys.  
+
+`T` - Shape of the defaults object  
+
+`U` - Subset of `T` allowed as overrides  
+
+`defaults` - Base configuration with required keys  
+
+`options` - Optional overrides, must be a subset of defaults  
+
+Throws a `TypeError` if `options` is not an object  
+
+Throws an `Error` if `options` contains unknown keys  
+
+Returns a new object with defaults and known overrides merged.
+
 <br>
 
 ## 🗒️ Examples
 
+```ts
+const opts = defineOptions({ retries: 3, verbose: false }, { verbose: true }) // => { retries: 3, verbose: true }
+
+const opts = defineStrictOptions({ retries: 3, verbose: false }, { retries: 5, extra: 'x' }) // => { retries: 5, verbose: false }  // 'extra' is dropped
+```
 
 <br>
 
