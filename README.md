@@ -78,7 +78,7 @@ Merge defaults with optional user options.
 
 <br>
 
-Returns A new object with defaults and overrides merged.  
+Returns a new object with defaults and overrides merged.  
 
 <br>
 
