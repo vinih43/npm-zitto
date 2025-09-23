@@ -74,7 +74,9 @@ Merge defaults with optional user options.
 
 `defaults` - Base configuration with required keys  
 
-`options` - Optional overrides, must be a subset of defaults  
+`options` - Optional overrides, must be a subset of defaults
+
+<br>
 
 Returns A new object with defaults and overrides merged.  
 
@@ -97,7 +99,9 @@ Merge defaults with optional user options, dropping unknown keys.
 
 `defaults` - Base configuration with required keys  
 
-`options` - Optional overrides, must be a subset of defaults  
+`options` - Optional overrides, must be a subset of defaults
+
+<br>
 
 Throws a `TypeError` if `options` is not an object  
 
